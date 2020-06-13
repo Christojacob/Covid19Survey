@@ -1,0 +1,31 @@
+﻿@model Covid19Survey.Models.UserResponse
+@{
+Layout= null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Thankyou</title>
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="/css/Styles.css" />
+</head>
+<body>
+    <div class="text-center thankyou-page-wrapper">
+        <img class="thankyou-img" src="@Url.Content("/images/ThankyouImg.png")"  />
+        <h2>Thankyou @Model.Name!</h2>
+        @if (Model.WearMask == true)
+        {
+            @:<p>Thankyou for wearing mask and take care of yours as well as other's lives!</p>
+        }
+        else
+        {
+            @:<p>Always wear mask as a precaution!</p>
+        }
+        <p>Click <a class="nav-link" asp-action="Statistics">here</a> to see the overall statistics.</p>
+    </div>
+    
+</body>
+</html>
+
+
