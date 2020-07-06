@@ -1,18 +1,9 @@
-﻿
+﻿@model List<UserResponse>;
 @{
-    Layout = null;
+    ViewBag.Title = "Statistics";
 }
-<!DOCTYPE html>
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Statistics</title>
-    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
-    <link rel="stylesheet" href="/css/Styles.css" />
-</head>
-<body>
+
     <div class="panel">
-        <div class="panel-heading text-center theme-header">Overall Statistics</div>
         <div class="panel-body container">
             <h4>
                 List of all responses.
@@ -29,15 +20,15 @@
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach (Covid19Survey.Models.UserResponse item in Model)
+                    @foreach (UserResponse item in Model)
                     {
                         <tr>
-                            <td>@item.Name</td>
-                            <td>@item.Email</td>
-                            <td>@item.Phone</td>
-                            <td>@item.WearMask</td>
-                            <td>@item.PublicTransportation</td>
-                            <td>@item.Work</td>
+                            <td>@item?.Name</td>
+                            <td>@item?.Email</td>
+                            <td>@item?.Phone</td>
+                            <td>@item?.WearMask</td>
+                            <td>@item?.PublicTransportation</td>
+                            <td>@item?.Work</td>
                         </tr>
                     }
                 </tbody>
@@ -45,6 +36,3 @@
             <a asp-action="Questionnaire">Click here to submit another response!</a>
         </div>
     </div>
-    
-</body>
-</html>

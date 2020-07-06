@@ -1,18 +1,9 @@
-﻿@model Covid19Survey.Models.UserResponse
+﻿@model UserResponse
 @{
-Layout= null;
+    ViewBag.Title = "Thankyou";
 }
-<!DOCTYPE html>
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Thankyou</title>
-    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
-    <link rel="stylesheet" href="/css/Styles.css" />
-</head>
-<body>
     <div class="text-center thankyou-page-wrapper">
-        <img class="thankyou-img" src="@Url.Content("/images/ThankyouImg.png")"  />
+        <img class="thankyou-img" src="@Url.Content("/images/ThankyouImg.png")" />
         <h2>Thankyou @Model.Name!</h2>
         @if (Model.WearMask == true)
         {
@@ -24,8 +15,5 @@ Layout= null;
         }
         <p>Click <a class="nav-link" asp-action="Statistics">here</a> to see the overall statistics.</p>
     </div>
-    
-</body>
-</html>
 
 

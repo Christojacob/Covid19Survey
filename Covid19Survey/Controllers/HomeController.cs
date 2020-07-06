@@ -10,15 +10,11 @@ namespace Covid19Survey.Controllers
 {
     public class HomeController : Controller
     {
-        public ViewResult Index()
-        {
-            return View("WelcomeView");
-        }
+        public ViewResult Index() => View("WelcomeView");
+
         [HttpGet]
-        public ViewResult Questionnaire()
-        {
-            return View();
-        }
+        public ViewResult Questionnaire() => View();
+
         [HttpPost]
         public ViewResult Questionnaire(UserResponse userResponse)
         {
@@ -32,10 +28,6 @@ namespace Covid19Survey.Controllers
                 return View();
             }
         }
-        public ViewResult Statistics()
-        {
-
-            return View(Repository.ResponseCollection);
-        }
+        public ViewResult Statistics() => View(Repository.ResponseCollection);
     }
 }

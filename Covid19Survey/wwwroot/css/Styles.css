@@ -47,3 +47,11 @@
 .thankyou-img{
     width:150px;
 }
+.theme_nav {
+    margin-bottom: 0px;
+    background-color: #f542aa;
+    color:#fff;
+}
+.theme_nav a{
+    color:#fff !important;
+}

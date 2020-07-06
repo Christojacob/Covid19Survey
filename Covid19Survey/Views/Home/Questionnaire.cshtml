@@ -1,19 +1,8 @@
-﻿@model Covid19Survey.Models.UserResponse
+﻿@model UserResponse
 @{
-    Layout = null;
+    ViewBag.Title = "Questionnaire";
 }
-
-<!DOCTYPE html>
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Questionnaire</title>
-    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
-    <link rel="stylesheet" href="/css/Styles.css" />
-</head>
-<body>
     <div class="panel panel-success">
-        <div class="panel-heading text-center theme-header"><h4>Questionnaire</h4></div>
         <div class="panel-body">
             <div class="container">
                 <form asp-action="Questionnaire">
@@ -61,6 +50,4 @@
             </div>
         </div>
     </div>
-</body>
-</html>
 
