@@ -10,6 +10,11 @@ namespace Covid19Survey.Controllers
 {
     public class HomeController : Controller
     {
+        private IResponseRepository repository;
+        public HomeController(IResponseRepository repo)
+        {
+            repository = repo;
+        }
         public ViewResult Index() => View("WelcomeView");
 
         [HttpGet]
@@ -20,7 +25,7 @@ namespace Covid19Survey.Controllers
         {
             if (ModelState.IsValid)
             {
-                Repository.AddResponse(userResponse);
+                repository.AddResponse(userResponse);
                 return View("Thankyou", userResponse);
             }
             else
@@ -28,6 +33,6 @@ namespace Covid19Survey.Controllers
                 return View();
             }
         }
-        public ViewResult Statistics() => View(Repository.ResponseCollection);
+        public ViewResult Statistics() => View(repository.ResponseCollection);
     }
 }

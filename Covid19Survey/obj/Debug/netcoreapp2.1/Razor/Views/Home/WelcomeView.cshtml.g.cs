@@ -64,7 +64,7 @@ using Covid19Survey.Models;
             WriteLiteral("\r\n    <div class=\"text-center welcome-page-wrapper \">\r\n        <h1>Welcome to Covid 19 Survey!</h1>\r\n        <p>Your response will be saved for the data collection process<p>\r\n         ");
             EndContext();
             BeginContext(232, 105, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1e1ca9a9fa6c44139398f707848f41b1", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b3d856e05ceb4b188cc1de9424208d20", async() => {
                 BeginContext(296, 37, true);
                 WriteLiteral("Click here to go to the questionnaire");
                 EndContext();

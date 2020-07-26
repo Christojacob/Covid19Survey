@@ -5,6 +5,7 @@ namespace Covid19Survey.Models
     public class UserResponse
     {
         [Required(ErrorMessage = "Please Enter Your Name")]
+        [Key]
         public string Name { get; set; }
         [Required(ErrorMessage = "Please Enter Your Email")]
         [RegularExpression(".+\\@.+\\..+", ErrorMessage=("Please enter a Valid email address"))]

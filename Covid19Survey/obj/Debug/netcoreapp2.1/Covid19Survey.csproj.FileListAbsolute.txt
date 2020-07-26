@@ -38,3 +38,4 @@ C:\Users\Baby\source\repos\Covid19Survey\Covid19Survey\bin\Debug\netcoreapp2.1\C
 C:\Users\Baby\source\repos\Covid19Survey\Covid19Survey\obj\Debug\netcoreapp2.1\Covid19Survey.Views.pdb
 C:\Users\Baby\source\repos\Covid19Survey\Covid19Survey\obj\Debug\netcoreapp2.1\Covid19Survey.genruntimeconfig.cache
 C:\Users\Baby\source\repos\Covid19Survey\Covid19Survey\obj\Debug\netcoreapp2.1\Covid19Survey.csproj.CopyComplete
+C:\Users\Baby\source\repos\Covid19Survey\Covid19Survey\bin\Debug\netcoreapp2.1\appsettings1.json
