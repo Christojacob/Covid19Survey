@@ -10,5 +10,6 @@ namespace Covid19Survey.Models
         IQueryable<UserResponse> ResponseCollection { get; }
 
         void AddResponse(UserResponse response);
+        UserResponse Delete(String name);
     }
 }

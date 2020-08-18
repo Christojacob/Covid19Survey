@@ -33,6 +33,6 @@ namespace Covid19Survey.Controllers
                 return View();
             }
         }
-        public ViewResult Statistics() => View(repository.ResponseCollection);
+        
     }
 }

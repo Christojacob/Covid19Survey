@@ -21,5 +21,18 @@ namespace Covid19Survey.Models
             context.SaveChanges();
         }
 
+        public UserResponse Delete(String name)
+        {
+            UserResponse dbEntry = context.ResponseCollection.FirstOrDefault(p => p.Name == name);
+
+            if (dbEntry != null)
+            {
+                context.ResponseCollection.Remove(dbEntry);
+                context.SaveChanges();
+            }
+
+            return dbEntry;
+        }
+
     }
 }

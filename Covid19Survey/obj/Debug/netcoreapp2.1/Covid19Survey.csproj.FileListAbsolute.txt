@@ -12,7 +12,6 @@ C:\Users\Baby\source\repos\Covid19Survey\Covid19Survey\obj\Debug\netcoreapp2.1\R
 C:\Users\Baby\source\repos\Covid19Survey\Covid19Survey\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\Baby\source\repos\Covid19Survey\Covid19Survey\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\Baby\source\repos\Covid19Survey\Covid19Survey\obj\Debug\netcoreapp2.1\Razor\Views\Home\Questionnaire.cshtml.g.cs
-C:\Users\Baby\source\repos\Covid19Survey\Covid19Survey\obj\Debug\netcoreapp2.1\Razor\Views\Home\Statistics.cshtml.g.cs
 C:\Users\Baby\source\repos\Covid19Survey\Covid19Survey\obj\Debug\netcoreapp2.1\Razor\Views\Home\Thankyou.cshtml.g.cs
 C:\Users\Baby\source\repos\Covid19Survey\Covid19Survey\obj\Debug\netcoreapp2.1\Razor\Views\Home\WelcomeView.cshtml.g.cs
 C:\Users\Baby\source\repos\Covid19Survey\Covid19Survey\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
@@ -39,3 +38,5 @@ C:\Users\Baby\source\repos\Covid19Survey\Covid19Survey\obj\Debug\netcoreapp2.1\C
 C:\Users\Baby\source\repos\Covid19Survey\Covid19Survey\obj\Debug\netcoreapp2.1\Covid19Survey.genruntimeconfig.cache
 C:\Users\Baby\source\repos\Covid19Survey\Covid19Survey\obj\Debug\netcoreapp2.1\Covid19Survey.csproj.CopyComplete
 C:\Users\Baby\source\repos\Covid19Survey\Covid19Survey\bin\Debug\netcoreapp2.1\appsettings1.json
+C:\Users\Baby\source\repos\Covid19Survey\Covid19Survey\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\Baby\source\repos\Covid19Survey\Covid19Survey\obj\Debug\netcoreapp2.1\Razor\Views\Admin\Index.cshtml.g.cs
